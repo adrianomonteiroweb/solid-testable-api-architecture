@@ -8,8 +8,10 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 
   - Eslint Standard;
     To standardize formatting during development.
-  - Vitest.
+  - Vitest;
     Test module compatible with jest, typescript and others...
+  - date-fns.
+    Used for handling dates in a function to generate future dates.
 
 ### ENTITIES
 
