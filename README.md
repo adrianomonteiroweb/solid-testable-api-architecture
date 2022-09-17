@@ -2,7 +2,7 @@
 
 Repository of architectural studies of a testable api with SOLID concepts in classes and TypeScript.
 
-## TECHNOLOGIES
+### TECHNOLOGIES
 
 - DevDependencies:
 
@@ -11,14 +11,34 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
   - Vitest.
     Test module compatible with jest, typescript and others...
 
-## ENTITIES
+### ENTITIES
 
-- Appointment
+```bash
+.
+├── src
+│ ├── entities
+│     ├── Appointment.ts
+```
+
+- Appointment:
+
   - customer;
   - startAt;
   - endAt.
 
-## TESTING THE APPLICATION
+### USE CASES
+
+```bash
+.
+├── src
+│ ├── use-cases
+│     ├── create-appointment.ts
+```
+
+- create-appointment:
+  - CreateAppointment.
+
+### TESTING THE APPLICATION
 
 ```zsh
 npm test
