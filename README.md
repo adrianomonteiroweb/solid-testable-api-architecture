@@ -7,11 +7,11 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 - DevDependencies:
 
   - Eslint Standard;
-    To standardize formatting during development.
+    - To standardize formatting during development.
   - Vitest;
-    Test module compatible with jest, typescript and others...
+    - Test module compatible with jest, typescript and others...
   - date-fns.
-    Used for handling dates in a function to generate future dates.
+    - Used for handling dates in a function to generate future dates.
 
 ### ENTITIES
 
@@ -54,7 +54,7 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 
 - Functions
   - get-future-date
-    Increases date with one year.
+    - Increases date with one year.
 
 ```bash
 ...
