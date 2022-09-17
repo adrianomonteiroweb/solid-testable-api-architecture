@@ -16,10 +16,15 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 ### ENTITIES
 
 ```bash
-.
+...
 ├── src
-│ ├── entities
-│     ├── Appointment.ts
+  ├── entities
+    ...
+    ├── Appointment.ts
+    ...
+  ├── tests
+  ├── use-cases
+...
 ```
 
 - Appointment:
@@ -31,10 +36,15 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 ### USE CASES
 
 ```bash
-.
+...
 ├── src
-│ ├── use-cases
-│     ├── create-appointment.ts
+  ├── entities
+  ├── tests
+  ├── use-cases
+    ...
+    ├── create-appointment.ts
+    ...
+...
 ```
 
 - create-appointment:
@@ -42,6 +52,42 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 
 ### TESTING THE APPLICATION
 
+- Functions
+  - get-future-date
+    Increases date with one year.
+
+```bash
+...
+├── src
+  ├── entities
+  ├── tests
+    ├── utils
+      ...
+      ├── get-future-date.ts
+      ...
+  ├── use-cases
+...
+```
+
 ```zsh
 npm test
+```
+
+```bash
+...
+├── src
+  ├── entities
+    ...
+    ├── appointment.spec.ts
+    ...
+  ├── tests
+    ├── utils
+      ...
+      ├── get-future-date.spec.ts
+      ...
+  ├── use-cases
+    ...
+    ├── create-appointment.spec.ts
+    ...
+...
 ```
