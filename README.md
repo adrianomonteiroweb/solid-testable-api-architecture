@@ -22,6 +22,7 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
     ...
     ├── Appointment.ts
     ...
+  ├── repositories
   ├── tests
   ├── use-cases
 ...
@@ -39,6 +40,7 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 ...
 ├── src
   ├── entities
+  ├── repositories
   ├── tests
   ├── use-cases
     ...
@@ -50,6 +52,22 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 - create-appointment:
   - CreateAppointment.
 
+### REPOSITORIES
+
+```bash
+...
+├── src
+  ├── entities
+  ├── repositories
+    ├── in-memory
+      ├── appointment-repository.ts
+  ├── tests
+  ├── use-cases
+...
+```
+
+- appointment-repository.
+
 ### TESTING THE APPLICATION
 
 - Functions
@@ -60,6 +78,7 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
 ...
 ├── src
   ├── entities
+  ├── repositories
   ├── tests
     ├── utils
       ...
@@ -68,6 +87,8 @@ Repository of architectural studies of a testable api with SOLID concepts in cla
   ├── use-cases
 ...
 ```
+
+- For application test, running:
 
 ```zsh
 npm test
@@ -80,6 +101,7 @@ npm test
     ...
     ├── appointment.spec.ts
     ...
+  ├── repositories
   ├── tests
     ├── utils
       ...
@@ -91,3 +113,25 @@ npm test
     ...
 ...
 ```
+
+### REFERENCE
+
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Rocketseat</th>
+      </tr>
+    </thhead>
+    <tbody>
+      <tr>
+        <td><img src="https://avatars.githubusercontent.com/u/68549162?s=200&v=4" alt="Rocketseat" width="100x" /></td>
+      </tr>
+      <tr>
+        <td style="text-align: center">
+          <a href="https://www.youtube.com/watch?v=jBOLRzjEERk&ab_channel=Rocketseat" target="_blank">Youtube</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
